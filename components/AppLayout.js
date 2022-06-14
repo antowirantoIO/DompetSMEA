@@ -1,11 +1,17 @@
 import React from "react";
 import Head from "next/head";
 import { useEffect, useState } from "react";
+import IOSAddToHome from "./IOSAddToHome";
+import AndroidAddToHome from "./AndroidAddToHome";
+import BottomMenu from "../components/BottomMenu";
 
 export default function AppLayout(props) {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
+    if (typeof document !== undefined) {
+      require('bootstrap/dist/js/bootstrap')   
+    }
     setTimeout(() => {
       setLoading(false);
     }, 1000);
@@ -49,6 +55,9 @@ export default function AppLayout(props) {
       ) : (
         <div>{props.children}</div>
       )}
+      <BottomMenu />
+      <IOSAddToHome/>
+      <AndroidAddToHome/>
     </div>
   );
 }

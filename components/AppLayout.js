@@ -4,9 +4,14 @@ import { useEffect, useState } from "react";
 import IOSAddToHome from "./IOSAddToHome";
 import AndroidAddToHome from "./AndroidAddToHome";
 import BottomMenu from "../components/BottomMenu";
+import { useRouter } from "next/router";
+import { useAuth } from '../hooks/auth'
 
 export default function AppLayout(props) {
   const [loading, setLoading] = useState(false);
+  const route = useRouter();
+  const { user } = useAuth({ middleware: 'auth' })
+
   useEffect(() => {
     setLoading(true);
     if (typeof document !== undefined) {
@@ -16,6 +21,7 @@ export default function AppLayout(props) {
       setLoading(false);
     }, 1000);
   }, []);
+
   return (
     <div>
       <Head>
@@ -55,9 +61,17 @@ export default function AppLayout(props) {
       ) : (
         <div>{props.children}</div>
       )}
-      <BottomMenu />
-      <IOSAddToHome/>
-      <AndroidAddToHome/>
+      {
+        route.pathname == '/login' || route.pathname == '/register' ? (
+          null
+        ) : (
+          <>
+            <BottomMenu />
+            <IOSAddToHome />
+            <AndroidAddToHome />
+          </>
+        )
+      }
     </div>
   );
 }

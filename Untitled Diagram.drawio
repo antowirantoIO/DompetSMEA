@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T01:34:50.253Z" agent="5.0 (Windows)" etag="JsY9woeLQZ8G9tM_PSMX" version="21.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-06T01:35:31.358Z" agent="5.0 (Windows)" etag="Z2WrnaKFg6UneK1BF9PM" version="21.0.2" type="github" pages="4">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="880" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1257" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
             <mxPoint x="25" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FXenyZdL3_Z6IPaVlAPw-104" value="ADMIN" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="FXenyZdL3_Z6IPaVlAPw-104" value="ADMINISTARTOR" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FXenyZdL3_Z6IPaVlAPw-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FXenyZdL3_Z6IPaVlAPw-108" target="FXenyZdL3_Z6IPaVlAPw-113" edge="1">
@@ -150,7 +150,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FXenyZdL3_Z6IPaVlAPw-119" value="KARYAWAN" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="FXenyZdL3_Z6IPaVlAPw-119" value="PETUGAS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FXenyZdL3_Z6IPaVlAPw-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.917;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FXenyZdL3_Z6IPaVlAPw-122" target="FXenyZdL3_Z6IPaVlAPw-119" edge="1">
@@ -295,7 +295,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FXenyZdL3_Z6IPaVlAPw-156" value="PEMILIK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="FXenyZdL3_Z6IPaVlAPw-156" value="PIMPINAN" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FXenyZdL3_Z6IPaVlAPw-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FXenyZdL3_Z6IPaVlAPw-159" target="FXenyZdL3_Z6IPaVlAPw-156" edge="1">
